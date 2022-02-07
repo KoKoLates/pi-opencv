@@ -76,4 +76,4 @@ sudo ldconfig
 make clean 
 sudo apt-get update
 
-echo "Successfully install"
+echo "Successfully install OpenCV 4.5.5"
