@@ -1,1 +1,1 @@
-# OpenCV-RPI-install
+# OpenCV installation
