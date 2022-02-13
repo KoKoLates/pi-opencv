@@ -13,7 +13,8 @@ $ sudo rpi-eeprom-update -a
 $ sudo reboot
 ```
 
-**Swap memory**
+**Swap memory** <br>
+OpenCV neededs lots of memory to compile. Thus, to increase the swap is needed. In the `/sbin/dphys-swapfile` change the `CONF_MAXSWAP` to 4096MByte, and in the `/etc/dphys-swapfile` set the `CONF_SWAPSIZE` to 4096 MByte, also.
 ```shell
 # edit the swap configuration
 $ sudo nano /sbin/dphys-swapfile
