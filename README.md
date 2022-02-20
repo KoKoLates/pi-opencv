@@ -29,7 +29,7 @@ $ sudo reboot
 ```shell
 # check memory, a total of 6.5 GB is needed
 $ free -m
-$ wget https://github.com/KoKoLates/rpi-OpenCV-install/blob/main/OpenCV-4-5-4.sh
+$ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-4.sh
 $ sudo chmod 775 ./OpenCV-4-5-4.sh
 $ ./OpenCV-4-5-5.sh
 ```
