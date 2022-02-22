@@ -28,8 +28,6 @@ $ sudo reboot
 **OpenCV 4.5.5**
 ```shell
 $ free -m
-# check memory, a total of 6.5 GB is needed
-# if not, enlarge your swap space
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-5.sh
 $ sudo chmod 775 ./OpenCV-4-5-5.sh
 $ ./OpenCV-4-5-5.sh
@@ -38,8 +36,6 @@ $ ./OpenCV-4-5-5.sh
 **OpenCV 4.5.4**
 ```shell
 $ free -m
-# check memory, a total of 6.5 GB is needed
-# if not, enlarge your swap space
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-4.sh
 $ sudo chmod 775 ./OpenCV-4-5-4.sh
 $ ./OpenCV-4-5-4.sh
