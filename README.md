@@ -23,12 +23,14 @@ $ sudo nano /etc/dphys-swapfile
 $ sudo reboot
 ```
 
-## Installation Script
+## Install Command
 
 **OpenCV 4.5.5**
 ```shell
 $ free -m
+# cheeck memory for installation
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-5.sh
+# get the script from web
 $ sudo chmod 775 ./OpenCV-4-5-5.sh
 $ ./OpenCV-4-5-5.sh
 ```
@@ -36,7 +38,9 @@ $ ./OpenCV-4-5-5.sh
 **OpenCV 4.5.4**
 ```shell
 $ free -m
+# check memory for installation
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-4.sh
+# get the script from web
 $ sudo chmod 775 ./OpenCV-4-5-4.sh
 $ ./OpenCV-4-5-4.sh
 ```
