@@ -57,4 +57,4 @@ $ ./OpenCV-4-5-5.sh
 
 ## Post-Installation
 **Finish Checking**<br>
-
+In the terminal, ones could check the OpenCV environment installation by python command. OpenCV will be installed in `/usr/local` directory in default.
