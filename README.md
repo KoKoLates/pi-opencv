@@ -10,7 +10,7 @@ The physical RAM is used both by CPU and GPU. On the raspberry pi 2 and 3, it's 
 3. `Advanced Options` $\rightarrow$ `Memory Split`
 4. Update the memory for GPU, then finish
 5. Reboot the Raspberry pi
-<
+<br><
 
 **EEPROM** <br>
 The previous generations raspberry pi has all operating software on the SD card, but from the pi 4, it actually has onbroad upgradable firmware on EEPROM. By update the EEPROMs, it could literally reduce the power usage and cool down the temperature of CPU, give it a longer life span.
