@@ -58,4 +58,11 @@ $ ./OpenCV-4-5-5.sh
 
 ## Post-Installation
 **Finish Checking**<br>
-In the terminal, ones could check the OpenCV environment installation by python command. OpenCV will be installed in `/usr/local` directory in default.
+In the terminal, ones could check the OpenCV environment installation by python command. OpenCV will be installed in `/usr/local` directory in default.<br>
+<br>
+If python could not find the OpeneCV modules, it most likely build the wrong version number of the library in CMake command, and then cause CMake not finding both python version. 
+```shell
+# python 2
+$ cd ~/opencv/buid/lib/
+$ 
+```
