@@ -64,5 +64,5 @@ If python could not find the OpeneCV modules, it most likely build the wrong ver
 ```shell
 # python 2
 $ cd ~/opencv/buid/lib/
-$ 
+$ sudo 
 ```
