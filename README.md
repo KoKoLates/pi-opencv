@@ -64,5 +64,9 @@ If python could not find the OpeneCV modules, it most likely build the wrong ver
 ```shell
 # python 2
 $ cd ~/opencv/buid/lib/
-$ sudo 
+$ sudo cp cv2.so /usr/local/lib/python2.7/dist-packages/cv2/python-2.7
+
+# python3
+$ cd ~/opencv/build/lib/python3
+$ sudo cp cv2.cpython-37m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-packages/cv2/python-3.7
 ```
