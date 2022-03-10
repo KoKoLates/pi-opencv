@@ -62,8 +62,8 @@ In the terminal, ones could check the OpenCV environment installation by python 
 * Excutable file - `/usr/local/bin`
 * Library - `/usr/local/lib`
 * Cmake packages - `/usr/local/cmake/opencv4`
-* headers - `/usr/local/include/opencv4`
-* other files - `/usr/local/share/opencv4`
+* Headers - `/usr/local/include/opencv4`
+* Other files - `/usr/local/share/opencv4`
 
 
 If python could not find the OpeneCV modules, it most likely build the wrong version number of the library in CMake command, and then cause CMake not finding both python version. 
@@ -75,4 +75,13 @@ $ sudo cp cv2.so /usr/local/lib/python2.7/dist-packages/cv2/python-2.7
 # python3
 $ cd ~/opencv/build/lib/python3
 $ sudo cp cv2.cpython-37m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-packages/cv2/python-3.7
+```
+
+**cleaning**
+```shell
+cd ~/opencv
+sudo rm -r build
+
+sudo rm -rf ~/opencv
+sudo rm -rf ~/opencv_contrib
 ```
