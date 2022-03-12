@@ -26,7 +26,7 @@ $ sudo reboot
 ```
 
 **Swap memory** <br>
-OpenCV neededs lots of memory to compile. Thus, to increase the swap is needed. In the `/sbin/dphys-swapfile` change the `CONF_MAXSWAP` to 4096 MByte, and in the `/etc/dphys-swapfile` set the `CONF_SWAPSIZE` to 4096 MByte, also.
+OpenCV neededs lots of memory to compile. Thus, to increase the swap is needed. In the `/sbin/dphys-swapfile` change the `CONF_MAXSWAP` to 2048 MByte, and in the `/etc/dphys-swapfile` set the `CONF_SWAPSIZE` to 2048 MByte, also.
 ```shell
 # edit the swap configuration
 $ sudo nano /sbin/dphys-swapfile
