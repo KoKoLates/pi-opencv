@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OpenCV Installation
 
 ## Pre-Installation
@@ -174,4 +173,3 @@ sudo rm -r build
 sudo rm -rf ~/opencv
 sudo rm -rf ~/opencv_contrib
 ```
->>>>>>> 78c9938af25c51bbf1df5fabfc0796f772ed6da0
