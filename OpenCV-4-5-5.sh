@@ -44,6 +44,7 @@ mkdir build
 cd build
 
 # cmake configuration
+# Qt default to be OFF
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
