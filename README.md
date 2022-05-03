@@ -76,10 +76,10 @@ $ cd ~/opencv/build/lib/python3
 $ sudo cp cv2.cpython-37m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-packages/cv2/python-3.7
 ```
 
-**cleaning**
+**cleaning** <br>
 After building, all headers and libraries are copied. The `~/opencv` and `~/opencv_contrib` directory are no longer needed. It's able to remove these file for disk storage. 
 ```shell
+# It's around 1.4 GB storage space
 sudo rm -rf ~/opencv
 sudo rm -rf ~/opencv_contrib
-# It's around 1.4 GB storage space
 ```
