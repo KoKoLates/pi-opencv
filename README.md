@@ -31,7 +31,6 @@ OpenCV neededs lots of memory to compile. Thus, to increase the swap is needed. 
 # edit the swap configuration
 $ sudo nano /sbin/dphys-swapfile
 $ sudo nano /etc/dphys-swapfile
-# reboot
 $ sudo reboot
 ```
 
@@ -39,7 +38,7 @@ $ sudo reboot
 **OpenCV 4.5.4**
 ```shell
 $ free -m
-# check memory for installation
+# ensure the memory for installation
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-4.sh
 # get the script from web
 $ sudo chmod 775 ./OpenCV-4-5-4.sh
@@ -49,7 +48,7 @@ $ ./OpenCV-4-5-4.sh
 **OpenCV 4.5.5**
 ```shell
 $ free -m
-# check memory for installation
+# ensure the memory for installation
 $ wget https://raw.githubusercontent.com/KoKoLates/rpi-OpenCV-install/main/OpenCV-4-5-5.sh
 # get the script from web
 $ sudo chmod 775 ./OpenCV-4-5-5.sh
@@ -78,10 +77,9 @@ $ sudo cp cv2.cpython-37m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-p
 ```
 
 **cleaning**
+After building, all headers and libraries are copied. The `~/opencv` and `~/opencv_contrib` directory are no longer needed. It's able to remove these file for disk storage. 
 ```shell
-cd ~/opencv
-sudo rm -r build
-
 sudo rm -rf ~/opencv
 sudo rm -rf ~/opencv_contrib
+# It's around 1.4 GB storage space
 ```
