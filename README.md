@@ -7,7 +7,7 @@ The physical RAM is used both by CPU and GPU. On the raspberry pi 2 and 3, it's 
 
 1. Open the terminal on Raspberry pi
 2. `sudo raspi-config` 
-3. `Advanced Options` $\rightarrow$ `Memory Split`
+3. `Advanced Options` `Memory Split`
 4. Update the memory for GPU, then finish
 5. Reboot the Raspberry pi
 <br>
